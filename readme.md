@@ -1,4 +1,4 @@
-# Dokumentasi Aplikasi Classify dan Pengambilan Gambar
+# Classify
 <p align="center">
   <img src="logo.jpeg" alt="Classify Logo">
 </p>
