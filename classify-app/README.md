@@ -1,7 +1,7 @@
 # Dokumentasi Aplikasi Classify
 
 ## Gambaran Umum
-Aplikasi Classify adalah proyek Flutter yang menggunakan TensorFlow Lite untuk mengklasifikasikan gambar dari umpan kamera. Aplikasi ini juga mempertahankan daftar siswa dalam database SQLite, memungkinkan pengguna untuk menambahkan, melihat, dan menghapus catatan siswa.
+Aplikasi Classify adalah aplikasi yang menggunakan TensorFlow Lite untuk mengklasifikasikan gambar dari umpan kamera. Aplikasi ini juga mempertahankan daftar siswa dalam database SQLite, memungkinkan pengguna untuk menambahkan dan melihat daftar siswa.
 
 ## Dependensi
 Aplikasi ini menggunakan dependensi berikut:
@@ -33,10 +33,6 @@ Aplikasi ini mempertahankan daftar siswa dalam database SQLite. Setiap siswa mem
 - **Insert**: Siswa baru dapat ditambahkan ke database. Nama siswa dimasukkan oleh pengguna, dan timestamp terakhir yang dicatat secara otomatis diatur ke tanggal dan waktu saat ini.
 
 - **View**: Daftar siswa dapat dilihat dalam daftar. Setiap item daftar menampilkan nama siswa dan timestamp terakhir yang dicatat.
-
-- **Update**: Aplikasi ini menyediakan metode untuk memperbarui catatan siswa, tetapi fitur ini saat ini tidak digunakan dalam antarmuka pengguna.
-
-- **Delete**: Aplikasi ini menyediakan metode untuk menghapus catatan siswa, tetapi fitur ini saat ini tidak digunakan dalam antarmuka pengguna.
 
 ## Menjalankan Aplikasi
 Untuk menjalankan aplikasi, pastikan Anda telah menginstal dan menyiapkan Flutter dan Dart di mesin Anda. Kemudian, navigasikan ke direktori proyek di terminal Anda dan jalankan perintah berikut:
