@@ -31,8 +31,6 @@ Aplikasi Classify mempertahankan daftar siswa dalam database SQLite. Setiap sisw
 
 - **Insert**: Siswa baru dapat ditambahkan ke database. Nama siswa dimasukkan oleh pengguna, dan timestamp terakhir yang dicatat secara otomatis diatur ke tanggal dan waktu saat ini.
 - **View**: Daftar siswa dapat dilihat dalam daftar. Setiap item daftar menampilkan nama siswa dan timestamp terakhir yang dicatat.
-- **Update**: Aplikasi ini menyediakan metode untuk memperbarui catatan siswa, tetapi fitur ini saat ini tidak digunakan dalam antarmuka pengguna.
-- **Delete**: Aplikasi ini menyediakan metode untuk menghapus catatan siswa, tetapi fitur ini saat ini tidak digunakan dalam antarmuka pengguna.
 
 ### Pengambilan Gambar
 Skrip `main.py` dalam folder `image_dataset` mengambil gambar dari kamera komputer dan menyimpannya ke dalam folder yang ditentukan. Gambar-gambar ini kemudian dapat digunakan untuk proses klasifikasi dalam Aplikasi Classify.
